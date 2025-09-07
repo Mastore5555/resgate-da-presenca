@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/o-resgate/", // 👈 caminho do repositório
+  base: "resgate-da-presenca", // 👈 caminho do repositório
 });
