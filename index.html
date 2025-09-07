@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>O Resgate da Presença</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="icon" href="assets/img/logo-ancora.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Resgate da Presença</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="assets/img/logo-ancora.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <!-- Fundo com cor sólida (substitui vídeo por enquanto) -->
-    <div id="bg-solid"></div>
+    <main class="container">
+        <!-- Fundo sólido (podemos adicionar um vídeo depois) -->
+        <div id="bg-solid"></div>
 
-    <!-- Conteúdo central -->
-    <div class="content">
-      <img src="assets/img/logo-ancora.png" alt="O Resgate da Presença" class="logo" />
-
-      <h1>Você está vivo?</h1>
-      <h2>Então pare. Respire. Volte.</h2>
-
-      <button id="start-button" class="pulse">
-        Comece seu resgate — 60 segundos agora
-      </button>
-
-      <p class="slogan">Onde a vida acontece — entre uma respiração e outra.</p>
-    </div>
-  </main>
-
-  <audio id="respiracao-audio" src="assets/audio/respiracao-60s.mp3"></audio>
-  <script src="assets/js/main.js"></script>
+        <!-- Conteúdo central -->
+        <div class="content">
+            <img src="assets/img/logo-ancora.png" alt="O Resgate da Presença" class="logo">
+            <h1>Você está vivo?</h1>
+            <p>Então pare. Respire. Volte.</p>
+            <button id="btn-respirar">Respirar Agora</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
