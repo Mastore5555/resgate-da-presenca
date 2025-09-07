@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>O Resgate da Presença</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="icon" href="assets/img/logo-ancora.png">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="index.tsx"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
 </head>
-<body>
-    <main class="container">
-        <!-- Fundo sólido (podemos adicionar um vídeo depois) -->
-        <div id="bg-solid"></div>
-
-        <!-- Conteúdo central -->
-        <div class="content">
-            <img src="assets/img/logo-ancora.png" alt="O Resgate da Presença" class="logo">
-            <h1>Você está vivo?</h1>
-            <p>Então pare. Respire. Volte.</p>
-            <button id="btn-respirar">Respirar Agora</button>
-        </div>
-    </main>
-    <script src="main.js"></script>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
 </body>
 </html>
